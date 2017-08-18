@@ -2,6 +2,7 @@
  Copyright (C) 2017 Apple Inc. All Rights Reserved.
  See LICENSE.txt for this sample’s licensing information
  
+ 
  Abstract:
  Performs UI testing for the Calc app.
  */
@@ -26,7 +27,7 @@ class CalcUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-    
+    // Had help on this one -ar
     func testDivideByZero() {
         app.buttons["9"].tap()
         app.buttons["/"].tap()
